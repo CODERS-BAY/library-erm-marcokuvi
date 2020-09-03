@@ -3,5 +3,26 @@ A library manages books and journals. Each book is published by a publishing hou
 The articles published in the journals as well as the books should be managed in such a way that comfortable functions for information retrieval are possible: In addition to the assignment of a subject area, there should also be a keyword, whereby the relevance of each assigned keyword is important. Synonymous keywords should be recorded. Articles and books can each have several authors. Certain books can each have one book as a translation template, articles can reference each other:
 Each borrowing is handled by one employee, and one employee is also responsible for returning the book copy.
 Customers can also reserve books, each reservation usually results in a loan. The books and magazines are stored on shelves. A journal is placed on a shelf, and each shelf is assigned a subject area for the storage of the books.
-
 ![Foto](homework.jpg)]
+
+COSTUMERS (loan Nr., name, birthday, email)
+
+WORKERS (Id. , birthday, department, name)
+
+BOOKS (book Nr., author, publisher, theme)
+
+ARTICLE (article Nr., author, publisher, theme)
+
+SHELF (shelf Nr. , rows , book art)
+
+BOOK LOANS (loan Nr. ,book Nr. ,date)
+
+ARTICLE LOANS (loan Nr. ,article Nr. ,date)
+
+
+
+
+
+
+
+
